@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> Food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="#home">Inicio</a></li>
+                <li class="nav-item"><a href="#menu">Cardapio</a></li>
+                <li class="nav-item"><a href="#testimoials">Avaliações</a></li>
+            </ul>
+
+            <button class="btn-default">Peça aqui!</button>
+            <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+       <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item" ><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#testimonials">Avaliações</a></li>
+            </ul>
+
+            <button class="btn-default">Peça aqui!</button>
+        </div>
+    </header>
+
+    <main id="content">
+
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>Você</span>
+                </h1>
+                <p class="description">
+                    Desfrute dos melhores pratos preparados com ingredientes 
+                    frescos e entregues com todo carinho diretamente na sua casa.
+                </p>
+                <div id="cta_buttons">
+                    <a href="" class="btn-default">Cardapio</a>
+                    <a href="tel:+5545991086534" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                         (45)991086534
+                    </a>
+
+                </div>
+                 <div class="social-media-buttons">
+                    <a href="https://w.app/db9ycm">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/0_0crise/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div id="banner">
+
+                <img src="src/img/pratos.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+    <h2 class="section-title">Cardápio</h2>
+    <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+    <div id="dishes">
+        <!-- Poke -->
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/img/dish.png" alt="">
+            <h3 class="dish-title">Poke</h3>
+            <span class="dish-description">
+                Refrescante e leve, com cubos de salmão, arroz, legumes frescos e molho especial.
+                Inspirado na culinária havaiana. Ideal para dias quentes.
+            </span>
+            <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+                <h4>R$34,00</h4>
+                <button class="btn-default">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Sanduíche com Repolho -->
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/img/dish2.png" alt="">
+            <h3 class="dish-title">Sanduíche com Repolho</h3>
+            <span class="dish-description">
+               sanduíche quentinho com pão macio,
+                recheado com repolho refogado, queijo e molho especial.
+            </span>
+            <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(150+)</span>
+            </div>
+            <div class="dish-price">
+                <h4>R$15,00</h4>
+                <button class="btn-default">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Smoothie Bowl -->
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/img/dish3.png" alt="">
+            <h3 class="dish-title">Smoothie Bowl de Morango com Hortelã</h3>
+            <span class="dish-description">
+                Cremoso e geladinho, feito com morangos frescos e hortelã, Refrescante e nutritivo, ideal para comer com colher.
+            </span>
+            <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(450+)</span>
+            </div>
+            <div class="dish-price">
+                <h4>R$22,00</h4>
+                <button class="btn-default">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Macarrão com Camarão -->
+        <div class="dish">
+            <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <img src="src/img/dish4.png" alt="">
+            <h3 class="dish-title">Macarrão com Camarão e Tomates</h3>
+            <span class="dish-description">
+                Massa al dente com camarões salteados e tomatinhos frescos, temperados
+                com ervas e um toque de azeite. Leve, saboroso e cheio de frescor.
+            </span>
+            <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+                <h4>R$30,00</h4>
+                <button class="btn-default">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/img/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Mariana Rodrigues
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/img/avatar2.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Julia Maria
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star" style="color: rgb(92, 91, 91);"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+        <div id="footer-items">
+            <span id="copyright">
+                &copy 2025 Cris Martins
+            </span>
+             <div class="social-media-buttons">
+                    <a href="https://w.app/db9ycm">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/0_0crise/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+        </div>
+    </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+<script src="src/javascript/script.js"></script>
+</body>
+</html>
