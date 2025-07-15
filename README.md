@@ -30,5 +30,8 @@ Projeto de landing page moderna e responsiva para um restaurante. A proposta é 
 - **Font Awesome**
 
 ---
+<img width="1267" height="722" alt="image" src="https://github.com/user-attachments/assets/7557f571-71f5-414a-8cb8-e1591896065e" />
+<img width="1877" height="907" alt="image" src="https://github.com/user-attachments/assets/f42fd615-f6ef-41ee-a9b2-b4c90725fb83" />
+<img width="1881" height="1102" alt="image" src="https://github.com/user-attachments/assets/bf752be2-03e1-46f5-a911-c230887f4feb" />
 
 
