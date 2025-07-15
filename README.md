@@ -6,7 +6,7 @@ Projeto de landing page moderna e responsiva para um restaurante. A proposta é 
 
 ## 🔗 Acesse o site
 
-📍 Disponível em: [https://ismeCris.github.io/landing-page-food](https://ismeCris.github.io/landing-page-food)
+📍 Disponível em: [https://ismeCris.github.io/landing-page-food]( https://ismecris.github.io/landing-page-food/)
 
 ---
 
